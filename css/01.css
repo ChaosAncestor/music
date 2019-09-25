@@ -1,0 +1,260 @@
+/* 大图片 */
+.bg {
+	width: auto;
+	background-color: #f5f5f5;
+	padding: 26px 0px;
+
+}
+
+.bg .photo a {
+	width: 1218px;
+	height: 498px;
+	display: inline-block;
+	border: 1px solid #dbdbdb;
+	overflow: hidden;
+	border-radius: 20px;
+}
+
+.bg .photo img {
+	width: 100%;
+	margin-top: -28px;
+}
+
+.bg .photo {
+	position: relative;
+}
+
+.bg .photo ul {
+	position: absolute;
+	bottom: 26px;
+	left: 50%;
+	margin-left: -26px;
+}
+
+.bg .photo ul .ptli1 {
+	background-color: #fff;
+}
+
+.bg .photo ul li {
+	background-color: d4d4d4;
+	display: inline-block;
+	width: 11px;
+	height: 11px;
+	border: 1px solid #dbdbdb;
+	border-radius: 100%;
+	margin: 0px 6px;
+}
+
+.bg .photo ul li:hover {
+	background-color: #fff;
+}
+
+/* 第一个购物栏 */
+.bg .product1 {
+	border: 1px solid #dbdbdb;
+	border-bottom: 0px solid #dbdbdb;
+	margin-top: 25px;
+	position: relative;
+}
+
+.bg .product1 h2 {
+	color: #666666;
+	font-size: 20px;
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 1px solid #e1e1e1;
+	background-color: #fafafa;
+	padding-left: 24px;
+}
+
+.bg .product1 .btn {
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	right: 20px;
+}
+
+.bg .product1 .btn .btn1 {
+	display: inline-block;
+	float: left;
+	float: ;
+	width: 48px;
+	height: 48px;
+}
+
+.bg .product1 .btn .btn2 {
+	opacity: 0.5;
+}
+
+.bg .product1 .btn .btn1 img {
+	width: 48px;
+}
+
+.bg .product1 .pdul {
+	background-color: white;
+}
+
+.bg .product1 .pdul .pdli {
+	background-color: white;
+	display: inline-block;
+	float: left;
+	width: 304px;
+	height: 428px;
+	border-right: 1px solid #e1e1e1;
+	border-bottom: 1px solid #e1e1e1;
+	text-align: center;
+	position: relative;
+}
+
+.bg .product1 .pdul .pdli2 {
+	display: inline-block;
+	float: left;
+	width: 608px;
+	height: 428px;
+	border-right: 1px solid #e1e1e1;
+	border-bottom: 1px solid #e1e1e1;
+	text-align: center;
+}
+
+.bg .product1 .pdul .pdli2 a {
+	display: inline-block;
+	width: 608px;
+	height: 428px;
+
+}
+
+.bg .product1 .pdul .pdli2 a img {
+	width: 608px;
+	height: 428px;
+}
+
+.bg .product1 .pdul .pdli a {
+	display: inline-block;
+}
+
+.bg .product1 .pdul .pdli a:hover .float1 {
+	display: block;
+}
+
+.bg .product1 .pdul .cancel {
+	border-right: 0px solid #e1e1e1;
+}
+
+.bg .product1 .pdul .pdli a img {
+	width: 216px;
+	height: 216px;
+	margin: 45px 43px 20px;
+
+}
+
+.bg .product1 .pdul .pdli a h3 {
+	font-size: 12px;
+	color: #333333;
+	font-weight: 400px;
+}
+
+.bg .product1 .pdul .pdli a p {
+	font-size: 12px;
+	color: #999999;
+	/* font-weight: 400px; */
+}
+
+.bg .product1 .pdul .pdli a h4 {
+	font-size: 14px;
+	color: #d44d44;
+	font-weight: 400px;
+}
+
+.bg .product1 .pdul .pdli a .float1 {
+	display: none;
+	position: absolute;
+	background-color: white;
+	left: 0px;
+	right: 0px;
+	margin: 0px auto;
+	bottom: 22px;
+}
+
+.bg .product1 .pdul .pdli a .float1 .float2 {
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	margin-right: 10px;
+	text-align: center;
+	border: 1px solid #e1e1e1;
+	border-radius: 5px;
+	background-color: #fbfbfb;
+}
+
+.bg .product1 .pdul .pdli a .float1 .float3 {
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #e1e1e1;
+	border-radius: 5px;
+	background-color: #6891e2;
+	color: white;
+}
+
+.bg .product1 .pdul .pdli ul {
+	display: inline-block;
+	margin: 16px auto 20px;
+}
+
+.bg .product1 .pdul .pdli ul li {
+	float: left;
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	border: 2px solid #C3C4C4;
+	background-color: #f5f5f5;
+	border-radius: 100%;
+	margin: 0px 5px;
+}
+
+.bg .product1 .pdul .pdli ul li:hover {
+	border: 2px solid #b7b7b7;
+}
+
+.bg .product1 .pdul2 {
+	width: 1228px;
+}
+
+.bg .product1 .pdul2 .pdli3 {
+	float: left;
+	background-color: white;
+	border-bottom: #dbdbdb 1px solid;
+	border-right: #dbdbdb 1px solid;
+}
+
+.bg .product1 .pdul2 .pdli3 .pda {
+	padding: 30px;
+	display: inline-block;
+	width: 244px;
+	height: 246px;
+
+}
+
+.bg .product1 .pdul2 .pdli3 .pda img {
+	height: 138px;
+}
+
+.bg .product1 .pdul2 .pdli3 .pda h4 {
+	margin-top: 26px;
+	font-size: 14px;
+	color: #000000;
+	margin-bottom: 12px;
+}
+
+.bg .product1 .pdul2 .pdli3 .pda p {
+	font-size: 12px;
+	color: #999999;
+}
+
+.bg .product1 .pdul2 .pdli3 .pda .pdp {
+	margin-top: 14px;
+	color: #5683EA;
+}

@@ -1,0 +1,89 @@
+/* 清除边距 */
+body,h1,h2,h3,h4,h5,h6,p,ul,li,ol,dl,dt,dd,a,i,em,b,strong,img,input,br {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* 水平居中 */
+.container {
+	margin: 0 auto;
+}
+
+/* 清除样式 */
+ul,
+ol {
+	list-style: none;
+}
+
+/* 清除a标签的下划线 */
+a {
+	color: #333333;
+	/* 颜色黑色 */
+	text-decoration: none;
+	/* 清除下划线 */
+}
+
+/* 清除input的默认样式 */
+input {
+	background: none;
+	/* 背景无 */
+	outline: none;
+	/* 选择后焦点的默认样式无 */
+	padding: 0px;
+	/* 内边距为0 */
+}
+
+/* 清除浮动 高度塌陷 */
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0px;
+	line-height: 0px;
+	visibility: hidden;
+}
+
+/* IE清除浮动 高度塌陷 */
+.clearfix {
+	zoom: 1;
+	/* 为了兼容ie浏览器 */
+}
+
+/* 左浮动 */
+.fl {
+	float: left;
+}
+
+/* 右浮动 */
+.fr {
+	float: right;
+}
+
+/* 标签的大小 */
+h1 {
+	font-size: 22px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+h4 {
+	font-size: 16px;
+}
+
+h5 {
+	font-size: 14px;
+}
+
+h6 {
+	font-size: 12px;
+}
+
+.inbo {
+	display: inline-block;
+}

@@ -1,0 +1,390 @@
+.detailed {
+	background-color: #f6f6f6;
+	height: 38px;
+	line-height: 38px;
+}
+
+.detailed .content ul {
+	float: left;
+}
+
+.detailed .content ul li {
+	display: inline-block;
+	margin-right: 28px;
+}
+
+.detailed .content ul li a {
+	font-size: 12px;
+	color: #7b7b7b;
+}
+
+.detailed .content a:hover {
+	color: #333;
+	font-weight: bold;
+}
+
+.detailed .content .right {
+	font-size: 12px;
+	color: #7b7b7b;
+	float: right;
+}
+
+.bg {
+	border-top: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+	background-color: #fcfcfc;
+}
+
+.bg .container {
+	height: 501px;
+	padding-top: 48px;
+}
+
+.bg .container img {
+	float: left;
+	width: 500px;
+	height: 500px;
+}
+
+.bg .container .ctright {
+	width: 610px;
+	float: right;
+	height: 500px;
+}
+
+.bg .container .ctright .jies {
+	height: 105px;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.bg .container .ctright .jies h1 {
+	font-size: 28px;
+	font-weight: 500;
+	margin-bottom: 26px;
+}
+
+.bg .container .ctright .jies h2 {
+	font-size: 12px;
+	color: #999999;
+}
+
+.bg .container .ctright .choose {
+	height: 118px;
+	padding-top: 30px;
+}
+
+.bg .container .ctright .choose p {
+	float: left;
+	display: inline-block;
+	margin-top: 10px;
+	width: 90px;
+	font-size: 14px;
+}
+
+.bg .container .ctright .choose ul {
+	float: left;
+	display: inline-block;
+	width: 510px;
+	border-bottom: 1px #e8e8e8 dashed;
+	padding-bottom: 20px;
+
+}
+
+.bg .container .ctright .choose ul li {
+	margin-bottom: 12px;
+	display: inlin-block;
+	width: 33.3%;
+	float: left;
+
+}
+
+.bg .container .ctright .choose ul li a {
+	width: 100%;
+	display: inlin-block;
+	line-height: 36px;
+}
+
+.bg .container .ctright .choose ul li .quan {
+	float: left;
+	width: 30px;
+	height: 30px;
+	border: 3px solid #999999;
+	background-color: black;
+	border-radius: 100%;
+	margin-right: 8px;
+}
+
+.bg .container .ctright .choose2 ul li span {
+	font-size: 14px;
+
+}
+
+.bg .container .ctright .choose2 {
+	height: 118px;
+	padding-top: 30px;
+}
+
+.bg .container .ctright .choose2 p {
+	float: left;
+	display: inline-block;
+	margin-top: 10px;
+	width: 90px;
+	font-size: 14px;
+}
+
+.bg .container .ctright .choose2 ul {
+	float: left;
+	display: inline-block;
+}
+
+.bg .container .ctright .choose2 ul li {
+	float: left;
+	margin-right: 10px;
+
+}
+
+.bg .container .ctright .choose2 ul li a {
+	display: inline-block;
+	width: 117px;
+	height: 45px;
+	line-height: 45px;
+	border: 1px solid #e5e5e5;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.technology {
+	height: 148px;
+	line-height: 148px;
+	overflow: hidden;
+}
+
+hr {
+	width: 1190px;
+	margin: 0px auto;
+}
+
+.photo img {
+	width: 1220px;
+}
+
+/*  */
+.recommend {
+	padding-bottom: 58px;
+}
+
+.recommend h1 {
+	height: 147px;
+	line-height: 147px;
+	border-top: 1px solid #e8e8e8;
+}
+
+.recommend .pdul {
+	margin-left: 1px;
+	width: 1228px;
+}
+
+.recommend .pdul .pdli {
+	background-color: white;
+	display: inline-block;
+	float: left;
+	width: 295px;
+	height: 428px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #e1e1e1;
+
+	text-align: center;
+	position: relative;
+}
+
+.recommend .pdul .pdli2 {
+	display: inline-block;
+	float: left;
+	width: 608px;
+	height: 428px;
+	border-right: 1px solid #e1e1e1;
+	border-bottom: 1px solid #e1e1e1;
+	text-align: center;
+}
+
+.recommend .pdul .pdli2 a {
+	display: inline-block;
+	width: 608px;
+	height: 428px;
+
+}
+
+.recommend .pdul .pdli2 a img {
+	width: 608px;
+	height: 428px;
+}
+
+.recommend .pdul .pdli a {
+	display: inline-block;
+}
+
+.recommend .pdul .pdli a:hover .float1 {
+	display: block;
+}
+
+.recommend .pdul .cancel {
+	border-right: 0px solid #e1e1e1;
+}
+
+.recommend .pdul .pdli a img {
+	width: 216px;
+	height: 216px;
+	margin: 45px 39px 18px;
+
+}
+
+.recommend .pdul .pdli a h3 {
+	font-size: 12px;
+	color: #333333;
+	font-weight: 400px;
+	margin-bottom: 14px;
+}
+
+.recommend .pdul .pdli a p {
+	font-size: 12px;
+	color: #999999;
+}
+
+.recommend .pdul .pdli a h4 {
+	font-size: 14px;
+	color: #d44d44;
+	font-weight: 400px;
+}
+
+.recommend .pdul .pdli a .float1 {
+	display: none;
+	position: absolute;
+	background-color: white;
+	left: 0px;
+	right: 0px;
+	margin: 0px auto;
+	bottom: 22px;
+}
+
+.recommend .pdul .pdli a .float1 .float2 {
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	margin-right: 10px;
+	text-align: center;
+	border: 1px solid #e1e1e1;
+	border-radius: 5px;
+	background-color: #fbfbfb;
+}
+
+.recommend .pdul .pdli a .float1 .float3 {
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #e1e1e1;
+	border-radius: 5px;
+	background-color: #6891e2;
+	color: white;
+}
+
+.recommend .pdul .pdli ul {
+	display: inline-block;
+	margin: 16px auto 14px;
+}
+
+.recommend .pdul .pdli ul li {
+	float: left;
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	border: 2px solid #C3C4C4;
+	background-color: #f5f5f5;
+	border-radius: 100%;
+	margin: 0px 5px;
+}
+
+.recommend .pdul .pdli ul li:hover {
+	border: 2px solid #b7b7b7;
+}
+
+.bian {
+	height: 60px;
+	border-top: 1px solid #e3e3e3;
+	border-bottom: 1px solid #e3e3e3;
+}
+
+.settlement {
+	padding: 10px 0px;
+}
+
+.settlement h3 {
+	float: left;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.settlement ul {
+	float: left;
+}
+
+.settlement ul li {
+	float: left;
+	width: 175px;
+	height: 34px;
+	border-right: 1px solid #e3e3e3;
+	padding-left: 20px;
+}
+
+.settlement ul li p {
+	font-size: 12px;
+	height: 17px;
+}
+
+.settlement ul li .con {
+	color: #9d9d9d;
+}
+
+.settlement ul .bianju {
+	border-right: 0px solid #e3e3e3;
+}
+
+.settlement .right {
+	float: right;
+}
+
+.settlement .right .huo {
+	display: inline-block;
+	float: right;
+	margin-left: 30px;
+
+}
+
+.settlement .right .huo a {
+	display: inline-block;
+	width: 120px;
+	height: 40px;
+	background-color: #ffd22e;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+	color: white;
+
+}
+
+.settlement .right .price {
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+}
+
+.red {
+	color: #d44d44;
+}
